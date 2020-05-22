@@ -88,7 +88,8 @@ form{
     
     background: #FFFFFF;
     border-radius: 10px;
-    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 
 
 
@@ -182,7 +183,7 @@ footer>section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     
-    padding: 2em;
+  
     
     font-family: Nunito;
     font-style: italic;
@@ -211,7 +212,7 @@ footer>section{
       }
       footer>div>div{
         color: #000;
-        font-size: 30px;
+        font-size: 20px;
         display: flex;
       }
       footer>div>div>div{
@@ -245,14 +246,17 @@ footer>section{
           margin-left: -10px;
         }
         .membership{
-          font-size: 20px;
+          font-size: 14px;
         }
         .third-section{
           display: none;
           grid-template-columns:repeat(1, 1fr);
-          scroll-behavior: auto;
+          
     
           
+        }
+        ul>li{
+          font-size: small;
         }
         
        .centerdiv{
@@ -272,7 +276,7 @@ footer>section{
        
         
         justify-content: center;
-        padding: 6px;
+       
           }
     
           .downloadheading{
