@@ -26,12 +26,17 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #ef2222;
+  opacity: 0.3;
   color: black;
 }
 
 .topnav a.active {
   padding-right: 20vw;
+
+}
+a.active:hover{
+  background-color: #ffffff;
 }
 
 .topnav .icon {
@@ -135,16 +140,20 @@ ul > li {
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.footimg{
+  width: 200px;
+  height: 50px;
+}
 .description {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  width: 80vw;
+  width: 60vw;
   padding: 1em;
 }
 .search {
   /* Rectangle 19 */
 
-  width: 50vw;
+  width: 40vw;
   height: 46px;
 
   background: #ffffff;
@@ -162,6 +171,22 @@ ul > li {
   letter-spacing: 0.18em;
 
   color: #ffffff;
+}
+.subscribe{
+ 
+    width: 20vw;
+    height: 52px;
+    background: #df678c;
+  
+    font-family: Nunito;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.18em;
+  
+    color: #ffffff;
+ 
 }
 .button {
   width: 100px;
@@ -264,11 +289,12 @@ ul > li {
 }
 .third-section {
   width: 100vw;
+justify-items: center;
 
   background: #ffffff;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding-top: 4px;
+  padding-top: 6px;
 }
 .rectsvg {
   padding-left: 118px;
@@ -419,7 +445,7 @@ footer > div > div > div {
   .intro {
     text-align: center;
 
-    font-size: 13px;
+    font-size: 20px;
   }
 
   .circle > img {
@@ -479,4 +505,18 @@ footer > div > div > div {
   .downloadfoot {
     padding-left: 50px;
   }
+
+  .mem-des {
+    
+    font-size: 15px;
+  
+    
+}
+.subscribe, .searchbutton{
+  font-size: 10px;
+}
+.sub > img {
+  height: 30px;
+  width: 100px;
+}
 }

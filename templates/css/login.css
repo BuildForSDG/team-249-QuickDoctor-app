@@ -56,6 +56,7 @@ letter-spacing: 0.18em;
   }
   ul>li{
     list-style: none;
+    color: white;
   }
   
   @media screen and (max-width: 600px) {
@@ -135,7 +136,7 @@ input::placeholder{
     
     color: #3D155F;
 }
-.button:hover{
+#button:hover{
     background-color: #3D155F;
     color: #DF678C;
 }
@@ -194,13 +195,9 @@ footer>section{
     
     color: #FFFFFF
       }
-      footer>section>div{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 1em;
-      }
+      
       footer>section>div>img{
-        height: 50px;
+        margin-top: -150px;
       }
       footer{
         background-color: #3D155F;;
@@ -211,7 +208,7 @@ footer>section{
        
       }
       footer>div>div{
-        color: #000;
+        color: #fff;
         font-size: 20px;
         display: flex;
       }
