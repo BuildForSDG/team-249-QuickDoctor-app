@@ -74,22 +74,25 @@ ul > li {
 .hide {
   display: none;
 }
-.first-section {
-  background-repeat: no-repeat;
-  width: 100%;
-}
-.first-section > section {
-  width: 100%;
-
-  background: #3d155f;
-  opacity: 0.8;
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: center;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-.intro {
+  .first-section{
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;;
+   
+  }
+  .first-section>section{
+    width: 100%;
+    
+    background: #3D155F;
+    opacity: 0.8;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 1em;
+  }
+  .intro{
+ 
   text-align: center;
   width: 80vw;
 
@@ -255,20 +258,11 @@ ul > li {
   padding-top: 1em;
   padding-bottom: 1em;
 
-  background: #df678c;
-  justify-items: center;
-}
-.membership {
-  padding: 1em;
-  text-align: center;
-  font-family: Nunito;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 64px;
-  line-height: 87px;
-
-  text-align: center;
-  letter-spacing: 0.18em;
+  }
+  .searchbutton{
+      
+width: 20vw;
+height: 46px;
 
   color: #000000;
 }
@@ -454,6 +448,7 @@ footer > div > div > div {
     margin-top: -20px;
     margin-left: -10px;
   }
+
   .membership {
     font-size: 20px;
   }
@@ -466,10 +461,20 @@ footer > div > div > div {
   .centerdiv {
     display: none;
   }
-  .lastchild {
-    grid-auto-columns: 1;
+  .sub{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 130px !important;
+ 
   }
-  .fourth-section {
+  .sub>img{
+    height: 50px;
+    
+  }
+  .fifth-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
     width: 100%;
 
     background: #3d155f;
