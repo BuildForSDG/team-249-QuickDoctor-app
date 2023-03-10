@@ -56,6 +56,7 @@ letter-spacing: 0.18em;
   }
   ul>li{
     list-style: none;
+    color: white;
   }
   
   @media screen and (max-width: 600px) {
@@ -88,7 +89,8 @@ form{
     
     background: #FFFFFF;
     border-radius: 10px;
-    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 
 
 
@@ -134,7 +136,7 @@ input::placeholder{
     
     color: #3D155F;
 }
-.button:hover{
+#button:hover{
     background-color: #3D155F;
     color: #DF678C;
 }
@@ -182,7 +184,7 @@ footer>section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     
-    padding: 2em;
+  
     
     font-family: Nunito;
     font-style: italic;
@@ -193,13 +195,9 @@ footer>section{
     
     color: #FFFFFF
       }
-      footer>section>div{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 1em;
-      }
+      
       footer>section>div>img{
-        height: 50px;
+        margin-top: -150px;
       }
       footer{
         background-color: #3D155F;;
@@ -210,8 +208,8 @@ footer>section{
        
       }
       footer>div>div{
-        color: #000;
-        font-size: 30px;
+        color: #fff;
+        font-size: 20px;
         display: flex;
       }
       footer>div>div>div{
@@ -245,14 +243,17 @@ footer>section{
           margin-left: -10px;
         }
         .membership{
-          font-size: 20px;
+          font-size: 14px;
         }
         .third-section{
           display: none;
           grid-template-columns:repeat(1, 1fr);
-          scroll-behavior: auto;
+          
     
           
+        }
+        ul>li{
+          font-size: small;
         }
         
        .centerdiv{
@@ -272,7 +273,7 @@ footer>section{
        
         
         justify-content: center;
-        padding: 6px;
+       
           }
     
           .downloadheading{
